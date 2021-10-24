@@ -1,7 +1,6 @@
-<html>
-<head>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="preconnect" href="https://fonts.gstatic.com/">
+<link href="./liamnash.github.io_files/css2" rel="stylesheet">
 
 <style>
 
@@ -24,303 +23,52 @@ div {
 		font-family: 'Roboto', sans-serif;
 		text-align: center;
 	}
-	
-img {
-		border-radius: 50%;
-	}
-	
-.title {
-		margin-top: 100px;
-	}
-	
-.middle1 {
-		text-decoration: underline;
-		margin-top: 80px;
-		font-weight: 900;
-		font-size: 25;
-	}
-.middle2 {
-		text-decoration: underline;
-		margin-top: 100px;
-		font-weight: 700;
-		font-size: 27;
-	}
-	
-.right1 {
-		margin-left: 270px;
-		margin-top: 40px;
-		font-size: 50;
-		font-family: 'Dosis', sans-serif;
-	}
-	
-.right2 {
-		margin-left: 270px;
-		font-size: 20;
-		margin-top: -6px;
-		font-weight: 900;
-	}
-.right3 {
-		margin-left: 270px;
-		font-size: 17;
-		margin-top: 14px;
-		overflow:hidden;
-	}	
-	
-.left1 {
-		margin-right: 270px;
-		margin-top: 40px;
-		font-size: 50;
-		font-family: 'Dosis', sans-serif;
-	}
-	
-.left2 {
-		margin-right: 270px;
-		font-size: 20;
-		margin-top: -6px;
-		font-weight: 900;
-	}
-.left3 {
-		margin-right: 270px;
-		font-size: 17;
-		margin-top: 14px;
-		overflow:hidden;
-	}
-	
-.sub {
-		margin-top: -120px;
-	}
-	
-.gold {
-		color: #ffc219;
-	}
-	
-.leftimg {
-
-		position: absolute;
-		margin-top: 30px;
-		margin-left: calc(50% - 105px - 270px);
-	}
-	
-.rightimg {
-
-		position: absolute;
-		margin-top: 30px;
-		margin-left: calc(50% - 105px + 270px);
-	}
-	
-.leftvid {
-
-		position: absolute;
-		margin-top: 30px;
-		margin-left: calc(50% - 187px - 270px);
-	}
-
-.rightvid {
-
-		position: absolute;
-		margin-top: 30px;
-		margin-left: calc(50% - 187px + 270px);
-	}
-	
-.right4 {
-		margin-left: 380px;
-		margin-top: 40px;
-		font-size: 50;
-		font-family: 'Dosis', sans-serif;
-	}
-	
-.right5 {
-		margin-left: 380px;
-		font-size: 20;
-		margin-top: -6px;
-		font-weight: 900;
-	}
-.right6 {
-		margin-left: 380px;
-		font-size: 17;
-		margin-top: 14px;
-		overflow:hidden;
-	}	
-	
-.left4 {
-		margin-right: 380px;
-		margin-top: 40px;
-		font-size: 50;
-		font-family: 'Dosis', sans-serif;
-	}
-	
-.left5 {
-		margin-right: 380px;
-		font-size: 20;
-		margin-top: -6px;
-		font-weight: 900;
-	}
-.left6 {
-		margin-right: 380px;
-		font-size: 17;
-		margin-top: 14px;
-		overflow:hidden;
-	}
 		
 </style>
 </head>
 <body>
 
-
-<! -- MAIN -->
-
-
-<h1 class="title">liamna.sh</h1>
-<p class="sub">(its like Liam Nash haha get it?)</p>
-<div class="middle1">cool stuff I can do:</div>
-<div>&nbsp;</div>
-<div>marketing</div>
-<div>editing</div>
-<div>voiceover</div>
-<div>programming</div>
-<div>animation</div>
-<div>+ more</div>
-<div class="middle2">marketing/editing/voiceover</div>
-<div>&nbsp;</div>
-
-<! -- BLOCK FACTS -->
-
-<img class="leftimg" src="images\bflogo.png" alt="Block Facts Profile Picture" width="210" height="210">
-<a href="https://www.youtube.com/c/blockfacts">
-	<div class="right1">Block Facts</div>
-</a>
-<div class="right2">(<span class="gold">1.1 million subscribers!</span>)</div>
-<div class="right3">I created the hit YouTube series "Block Facts" from 2020-2021.<br />
-This involved daily writing, editing, VO, and managing a small team.<br /><br />
-300 MILLION views and 1M subscribers gained in just 5 months.</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-
-<! -- TCCO -->
-
-<img class="rightimg" src="images\tccobg.png" alt="TCCO Profile Picture" width="210" height="210">
-<img class="rightimg" style="border-radius: 0%" src="images\tccoletters.png" alt="TCCO Profile Picture" width="210" height="210">
-<a href="https://www.youtube.com/c/tccoshow">
-	<div class="left1">The Cut Content Of</div>
-</a>
-<div class="left2">(3.5M views, 37K subscribers)</div>
-<div class="left3">This series looks at the content removed from popular games.<br />
-High-quality motion graphics. Fully subtitled with perfect grammar.<br /><br />
-Not as much growth, but vital years gaining experience.</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div class="middle2">programming/animation</div>
-<div>&nbsp;</div>
-
-<! -- PIXEL BOY -->
-
-<iframe class="leftvid" width="373" height="210" src="https://www.youtube.com/embed/G0XO5nG9lMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	<div class="right4">Pixel Boy</div>
-<div class="right5">(created for an unfinished game)</div>
-<div class="right6">Character modelled and rigged in Blender. Game in Unity.<br />
-Voxel environment modelled using Magicavoxel.<br />
-This was my first go at animating/modelling a 3D character.<br />
-Should really be called voxel boy...</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-
-<! -- SUPERMARKET MAYHEM -->
-
-<iframe class="rightvid" width="373" height="210" src="https://www.youtube.com/embed/R_dB1QAySEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	<div class="left4">Supermarket Mayhem</div>
-<div class="left5">(ANOTHER unfinished game)</div>
-<div class="left6">3D characters modelled/rigged/animated by me.<br />
-UI elements also animated by me. Game made in Unity.<br />
-A fully featured demo with multiple minigames was created.<br />
-It's a party game similar to Mario Party and Fall Guys.</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-
-<! -- ROBO ESCAPE! -->
-
-<iframe class="leftvid" width="373" height="210" src="https://www.youtube.com/embed/_2axWt8HEdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<a href="https://indreams.me/dream/mPdgZxFzytp">
-	<div class="right4">Robo Escape!</div>
-</a>
-<div class="right5">(Made in Dreams using a PS4)</div>
-<div class="right6">Awarded an "Mm Pick" by the Dreams developers!<br />
-Total playtime of 6 MONTHS by the community.<br />
-Dreams is a 3D game/art creation tool. I made a 2D game.<br />
-One of the top played Dreams creations of all time.</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-
-<! -- LAB -->
-
-<iframe class="rightvid" width="373" height="210" src="https://www.youtube.com/embed/n0kXFZsufh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<a href="https://fedorpig.itch.io/the-pink-collection">
-	<div class="left4">The Laboratory:</div>
-</a>
-<div class="left5">In Case of an Unfortunate Experiment</div>
-<div class="left6">A totally mad parody of "The Stanley Parable" from a game jam.<br />
-It's a short experience made in a few days using Unity.<br />
-<br />
-The first FPS game I made, so there's loads I'd do differently now.</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-
-<! -- ROBO ESCAPE! -->
+<!-- pls stop looking at my crappy code TIMOTHY. I stole the countdown timer from w3schools and repurposed a portfolio website I made ages ago OKAY. there are no more passwords here!-->
 
 
-<img class="leftvid" style="border-radius: 0%" width="373" height="210"  src="images\candy.webp" alt="Candy Container">
-<a href="https://play.google.com/store/apps/details?id=com.waitcookies.candy">
-	<div class="right4">Candy Container</div>
-</a>
-<div class="right5">(Android - Made in 2018)</div>
-<div class="right6">Awarded an "Mm Pick" by the Dreams developers!<br />
-Total playtime of 6 MONTHS by the community.<br />
-Dreams is a 3D game/art creation tool. I made a 2D game.<br />
-One of the top played Dreams creations of all time.</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
 <div>&nbsp;</div>
 
-<! -- LIAMNA -->
 
-<img class="rightimg" src="images\liamlogo.png" alt="liamna.sh" width="210" height="210">
-<a href="https://www.liamna.sh">
-	<div class="left1">liamna.sh</div>
-</a>
-<div class="left2">(web design. you're looking at it)</div>
-<div class="left3">The website you're on right now was coded from scratch by me.<br /><br />
-It's pretty good for my first website. I should do this more often.<br />
-I've made other sites before, but haven't published them.</div>
+<h1 id="countdown"></h1>
 
+<p class="sub">you will recieve a message. the time loop will be fixed.</p><script>
+var countDownDate = new Date("Oct 24, 2021 20:07:25").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+    
+  var distance = countDownDate - now;
+    
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("countdown").innerHTML = hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script><div>&nbsp;</div>
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
 <div>&nbsp;</div>
 
-<! -- TAPIT -->
+<div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div>
+<div>&nbsp;</div>
+<p>copyright</p>
+<p style="margin-top: -15px;">block facts</p>
 
-<img class="leftimg" style="border-radius: 0%" src="images\tapit.webp" alt="TapIt!" width="118" height="210">
-<a href="https://play.google.com/store/apps/details?id=com.LaNgaming.TapIt">
-	<div class="right1">TapIt!</div>
-</a>
-<div class="right2">(Android - Made when I was 13)</div>
-<div class="right3">Made by me and a friend in 2016, in just four days using Unity. Our first game ever.<br /><br />
-We were going to add more content through updates, but 13-year-old me lost access.<br />
-Touch the dots! Don't touch the red ones, though, or you'll lose a life.</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<p>contact me!</p>
-<p style="margin-top: -15px;">hello@liamna.sh</p>
-<div>&nbsp;</div>
-</body>
-</html>
+
+
+</body></html>
