@@ -1,143 +1,170 @@
 <html>
-	<head>
+
+<head>
 	<title>BF thumbnail designer v4</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, user-scalable=no" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Roboto:wght@900&display=swap" rel="stylesheet">
-    <style>
-#panel {
-    overflow: auto;
-	max-height: 20vh;
-}
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Roboto:wght@900&display=swap"
+		rel="stylesheet">
+	<style>
+		#panel {
+			overflow: auto;
+			max-height: 20vh;
+		}
 
-a {
-	margin-top: 1%;
-	margin-left: 1%;
-	margin-right: 1%;
-}
-
-
-.icon-container {
-    float: left;
-    width: 20%;
-    text-align: center;
-	position: relative;
-	max-height: 50%;
-}
-
-.icon-container img {
-    width: 100%;
-    height: auto;
-	border-width: 1%;
-	border-style: solid;
-	border-color: black;
-}
-
-.title {
-
-	position: absolute;
-	top: 0;
-	left: 0;
-
-}
-
-.line {
-
-	position: absolute;
-    width: 100%;
-}
-
-.main {
-
-	position:relative;
-	width: 49.1406%;
-}
-
-	    
-.maintitle {
-
-	margin-right: 0;
-	position:absolute;
-	width: 49.1406%;
-	z-index:1;
-}
+		a {
+			margin-top: 1%;
+			margin-left: 1%;
+			margin-right: 1%;
+		}
 
 
-.titletext {
-	font-family: 'Roboto', sans-serif;
-	margin-right: 0;
-	position:absolute;
-	width: 49.1406%;
-	z-index:2;
-	color: white;
-	text-align: center;
-	white-space: nowrap;
-}
+		.icon-container {
+			float: left;
+			width: 20%;
+			text-align: center;
+			position: relative;
+			max-height: 50%;
+		}
 
-.settings {
+		.icon-container img {
+			width: 100%;
+			height: auto;
+			border-width: 1%;
+			border-style: solid;
+			border-color: black;
+		}
+
+		.title {
+
+			position: absolute;
+			top: 0;
+			left: 0;
+
+		}
+
+		.line {
+
+			position: absolute;
+			width: 100%;
+		}
+
+		.main {
+
+			position: relative;
+			width: 49.1406%;
+		}
 
 
-	margin-left: 1%;
+		.maintitle {
 
-}
+			margin-right: 0;
+			position: absolute;
+			width: 49.1406%;
+			z-index: 1;
+		}
 
-#leftside {
 
-	position: relative;
-	margin-top: 1%;
-	margin-left: 1%;
-	margin-right: 1%;
-    width: 48%;
-	border-width: 1%;
-	border-style: solid;
-	border-color: black;
+		.titletext {
+			font-family: 'Roboto', sans-serif;
+			margin-right: 0;
+			position: absolute;
+			width: 49.1406%;
+			z-index: 2;
+			color: white;
+			text-align: center;
+			white-space: nowrap;
+		}
 
-}
-#rightside {
+		.settings {
 
-	position: absolute;
-	text-align: right;
-    width: 100%;
 
-}
+			margin-left: 1%;
 
+		}
+
+		#leftside {
+
+			position: relative;
+			margin-top: 1%;
+			margin-left: 1%;
+			margin-right: 1%;
+			width: 48%;
+			border-width: 1%;
+			border-style: solid;
+			border-color: black;
+
+		}
+
+		#rightside {
+
+			position: absolute;
+			text-align: right;
+			width: 100%;
+
+		}
 	</style>
-	</head>
-	<body>
+</head>
+
+<body>
 
 	<div id="panel">
-    <a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="AMETHYST.png" onclick="clickImg(this, 1)" class="icon" filename="AMETHYST" id="icon1"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="AMETHYST2.png" onclick="clickImg(this, 2)" class="icon" filename="AMETHYST2" id="icon2"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="ARMOR.png" onclick="clickImg(this, 3)" class="icon" filename="ARMOR" id="icon3"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="BARK.png" onclick="clickImg(this, 4)" class="icon" filename="BARK" id="icon4"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="BARK2.png" onclick="clickImg(this, 5)" class="icon" filename="BARK2" id="icon5"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="BARK3.png" onclick="clickImg(this, 6)" class="icon" filename="BARK3" id="icon6"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="CANNON.png" onclick="clickImg(this, 7)" class="icon" filename="CANNON" id="icon7"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="CANNON2.png" onclick="clickImg(this, 8)" class="icon" filename="CANNON2" id="icon8"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="CHEST.png" onclick="clickImg(this, 9)" class="icon" filename="CHEST" id="icon9"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="CHEST2.png" onclick="clickImg(this, 10)" class="icon" filename="CHEST2" id="icon10"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="ROBOT.png" onclick="clickImg(this, 11)" class="icon" filename="ROBOT" id="icon11"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="ROBOT2.png" onclick="clickImg(this, 12)" class="icon" filename="ROBOT2" id="icon12"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="SPELLS.png" onclick="clickImg(this, 13)" class="icon" filename="SPELLS" id="icon13"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="THIRST.png" onclick="clickImg(this, 14)" class="icon" filename="THIRST" id="icon14"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="TURRET.png" onclick="clickImg(this, 15)" class="icon" filename="TURRET" id="icon15"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="TURRET2.png" onclick="clickImg(this, 16)" class="icon" filename="TURRET2" id="icon16"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="CHISEL.png" onclick="clickImg(this, 16)" class="icon" filename="" id="icon17"></a></div>
+		<a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="2DMODE.png"
+				onclick="clickImg(this, 1)" class="icon" filename="2D MODE" id="icon1"></a><a class="icon-container"
+			style="width: 3.025%; margin-right: 0.1%;"><img src="CIRCLE.png" onclick="clickImg(this, 2)" class="icon"
+				filename="CIRCLE" id="icon2"></a><a class="icon-container"
+			style="width: 3.025%; margin-right: 0.1%;"><img src="CYLINDER.png" onclick="clickImg(this, 3)" class="icon"
+				filename="CYLINDER" id="icon3"></a><a class="icon-container"
+			style="width: 3.025%; margin-right: 0.1%;"><img src="FLAT.png" onclick="clickImg(this, 4)" class="icon"
+				filename="FLAT" id="icon4"></a><a class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img
+				src="ILLEGAL.png" onclick="clickImg(this, 5)" class="icon" filename="ILLEGAL" id="icon5"></a><a
+			class="icon-container" style="width: 3.025%; margin-right: 0.1%;"><img src="RAINBOW.png"
+				onclick="clickImg(this, 6)" class="icon" filename="RAINBOW" id="icon6"></a><a class="icon-container"
+			style="width: 3.025%; margin-right: 0.1%;"><img src="SHRINK.png" onclick="clickImg(this, 7)" class="icon"
+				filename="SHRINK" id="icon7"></a><a class="icon-container"
+			style="width: 3.025%; margin-right: 0.1%;"><img src="SPHERE.png" onclick="clickImg(this, 8)" class="icon"
+				filename="SPHERE" id="icon8"></a>
+	</div>
 
 	<div id="leftside">
-		<canvas id="middlecanvas" class="line" width="3840px" height="2160px" ></canvas>
+		<canvas id="middlecanvas" class="line" width="3840px" height="2160px"></canvas>
 		<div id="rightside">
-			<div id="righttext" class="titletext" style="font-size: 4.71vw;margin-top: -0.6vw;letter-spacing: 0vw;-webkit-text-stroke: 0.6vw black;margin-left: 24vw;">
+			<div id="righttext" class="titletext"
+				style="font-size: 4.71vw;margin-top: -0.6vw;letter-spacing: 0vw;-webkit-text-stroke: 0.6vw black;margin-left: 24vw;">
 				RIGHT
 			</div>
-			<div id="righttexttop" class="titletext" contenteditable="true" style="font-size: 4.71vw;margin-top: -0.6vw;letter-spacing: 0vw;	-webkit-text-stroke: 0vw white; margin-left: 24vw;" oninput="setText(this)">
+			<div id="righttexttop" class="titletext" contenteditable="true"
+				style="font-size: 4.71vw;margin-top: -0.6vw;letter-spacing: 0vw;	-webkit-text-stroke: 0vw white; margin-left: 24vw;"
+				oninput="setText(this)">
 				RIGHT
 			</div>
 			<canvas id="rightcanvas" class="main" width="1887px" height="2160px" onclick="clickRight()"></canvas>
 		</div>
-		<div id="lefttext" class="titletext" style="font-size: 4.71vw;margin-top: -0.6vw;letter-spacing: 0vw;-webkit-text-stroke: 0.6vw black;">
+		<div id="lefttext" class="titletext"
+			style="font-size: 4.71vw;margin-top: -0.6vw;letter-spacing: 0vw;-webkit-text-stroke: 0.6vw black;">
 			LEFT
 		</div>
-		<div id="lefttexttop" class="titletext" contenteditable="true" style="font-size: 4.71vw;margin-top: -0.6vw;letter-spacing: 0vw;	-webkit-text-stroke: 0vw white; " oninput="setText(this)">
+		<div id="lefttexttop" class="titletext" contenteditable="true"
+			style="font-size: 4.71vw;margin-top: -0.6vw;letter-spacing: 0vw;	-webkit-text-stroke: 0vw white; "
+			oninput="setText(this)">
 			LEFT
 		</div>
 		<canvas id="leftcanvas" class="main" width="1887px" height="2160px" onclick="clickLeft()"></canvas>
 	</div>
-	
+
 	<br>
-	
+
 	<div class="settings">
-		
+
+		<b>37 Secret Minecraft Features</b>
+		<br>
+		<br>
 		<b>How to use:</b>
 		<br>
 		Click an image from the top to select it, then click on the side you would like it to be on.
-		
+
 		<br>
 		Click a side without an image selected to flip that panel.
 		<br>
@@ -146,7 +173,7 @@ a {
 		<br>
 		Please choose a file to import any additional panels. (They will be automatically cropped.)
 		<br>
-		<input type="file" id="addfile" name="avatar" accept="image/png, image/jpeg" multiple >
+		<input type="file" id="addfile" name="avatar" accept="image/png, image/jpeg" multiple>
 		<br>
 		<br>
 		Settings:
@@ -155,7 +182,8 @@ a {
 		Font size:
 		<br>
 		<div class="slidecontainer">
-			<input type="range" min="600" max="1200" value="942" class="slider" id="scale" oninput="changeSlider(this, 0)">
+			<input type="range" min="600" max="1200" value="942" class="slider" id="scale"
+				oninput="changeSlider(this, 0)">
 			<input type="number" min="600" max="1200" value="942" oninput="changeValue(this, 0)">
 		</div>
 		<br>
@@ -163,7 +191,8 @@ a {
 		Top spacing:
 		<br>
 		<div class="slidecontainer">
-			<input type="range" min="-300" max="300" value="-60" class="slider" id="spacing" oninput="changeSlider(this, 1)">
+			<input type="range" min="-300" max="300" value="-60" class="slider" id="spacing"
+				oninput="changeSlider(this, 1)">
 			<input type="number" min="-300" max="300" value="-60" oninput="changeValue(this, 1)">
 		</div>
 		<br>
@@ -171,7 +200,8 @@ a {
 		Letter spacing:
 		<br>
 		<div class="slidecontainer">
-			<input type="range" min="-100" max="100" value="0" class="slider" id="letters" oninput="changeSlider(this, 2)">
+			<input type="range" min="-100" max="100" value="0" class="slider" id="letters"
+				oninput="changeSlider(this, 2)">
 			<input type="number" min="-100" max="100" value="0" oninput="changeValue(this, 2)">
 		</div>
 		<br>
@@ -191,347 +221,299 @@ a {
 			<input type="number" min="40" max="100" value="50" oninput="changeValue(this, 3)">
 		</div>
 	</div>
-	
+
 	<script>
-	
-	var initialFiles = document.getElementsByClassName("icon").length;
-	
-	var imageCount = initialFiles;
-	var padding = 1;
-	
-	var fontSize = document.getElementById("scale").value/100;
-	
-	var selected = 0;
-	
-	var size = document.getElementById("zoom").value;
-	
-	var leftFlip = false;
-	var rightFlip = false;
-	
-	
-	var addedFiles = [];
-	
-	const addFile = document.getElementById("addfile");
-	addFile.addEventListener('change', updateImageDisplay);
+
+		var initialFiles = document.getElementsByClassName("icon").length;
+
+		var imageCount = initialFiles;
+		var padding = 1;
+
+		var fontSize = document.getElementById("scale").value / 100;
+
+		var selected = 0;
+
+		var size = document.getElementById("zoom").value;
+
+		var leftFlip = false;
+		var rightFlip = false;
 
 
-	const leftcanvas = document.getElementById('leftcanvas');
-	const leftcontext = leftcanvas.getContext('2d');
-	const middlecanvas = document.getElementById('middlecanvas');
-	const middlecontext = middlecanvas.getContext('2d');
-	const rightcanvas = document.getElementById('rightcanvas');
-	const rightcontext = rightcanvas.getContext('2d');
-	
-	middlecontext.fillRect(1887, 0, 66, 2160);
-	middlecontext.fillStyle = "#FFFFFF";
-	middlecontext.fillRect(1899, 0, 42, 2160);
+		var addedFiles = [];
 
-	resize();
-	
-	function setText(text)
-	{
-		text.previousElementSibling.innerHTML = text.innerHTML;
-	}
-	
-	function changeSlider(input, id)
-	{
-		input.nextElementSibling.value = input.value;
-		decide(input, id);
-	}
-	function changeValue(input, id)
-	{
-		input.previousElementSibling.value = input.value;
-		decide(input, id);
-	}
-	
-	function decide(input, id)
-	{
-		if(id == 0)
-		{
-			changeSize(input.value);
-		}
-		if(id == 1)
-		{
-			changeSpace(input.value);
-		}
-		if(id == 2)
-		{
-			changeKern(input.value);
-		}
-		if(id == 3)
-		{
-			changeZoom(input.value);
-		}
-		if(id == 4)
-		{
-			changeThickness(input.value);
-		}
-	}
-	
-	
-	function changeSize(theSize)
-	{
-		var titles = document.getElementsByClassName('titletext');
-		for(i = 0; i < titles.length; i++) {
-			titles[i].style.fontSize = ((theSize/100) * (size/100)).toString() + "vw";
-			fontSize = theSize/100;
-		}
-	}
-	
-	function changeSpace(theSpace)
-	{
-		var titles = document.getElementsByClassName('titletext');
-		for(i = 0; i < titles.length; i++) {
-			titles[i].style.marginTop = (theSpace/100).toString() + "vw";
-		}
-	}
-	
-	function changeKern(theKern)
-	{
-		var titles = document.getElementsByClassName('titletext');
-		for(i = 0; i < titles.length; i++) {
-			titles[i].style.letterSpacing = (theKern/100).toString() + "vw";
-		}
-	}
-	
-	function changeThickness(theThickness)
-	{
-		var titles = document.getElementsByClassName('titletext');
-		var newThickness = ((theThickness/100)*(size/100)).toString() + "vw black";
-		
-		document.getElementById("lefttext").style.webkitTextStroke = newThickness;
-		document.getElementById("righttext").style.webkitTextStroke = newThickness;
-	}
-	
-	
-	
-	function changeZoom(theZoom)
-	{
-		size = theZoom;
+		const addFile = document.getElementById("addfile");
+		addFile.addEventListener('change', updateImageDisplay);
+
+
+		const leftcanvas = document.getElementById('leftcanvas');
+		const leftcontext = leftcanvas.getContext('2d');
+		const middlecanvas = document.getElementById('middlecanvas');
+		const middlecontext = middlecanvas.getContext('2d');
+		const rightcanvas = document.getElementById('rightcanvas');
+		const rightcontext = rightcanvas.getContext('2d');
+
+		middlecontext.fillRect(1887, 0, 66, 2160);
+		middlecontext.fillStyle = "#FFFFFF";
+		middlecontext.fillRect(1899, 0, 42, 2160);
+
 		resize();
-		var titles = document.getElementsByClassName('titletext');
-		for(i = 0; i < titles.length; i++) {
-			titles[i].style.fontSize = (fontSize * (size/100)).toString() + "vw";
-		}
-		var newStyle = (size/2 - 1).toString() + "vw";
-		document.getElementById("righttexttop").style.marginLeft = newStyle;
-		document.getElementById("righttext").style.marginLeft = newStyle;
-		changeThickness(document.getElementById("thick").value);
-	}
-	
 
-	function updateImageDisplay()
-	{
-		if(addFile.files[0] != null)
-		{
-			for(i = 0; i < addFile.files.length; i++) {
-			
-			
-				const panel = document.getElementById("panel");
-				const newcontainer = document.createElement("a");
-				const newimage = document.createElement('img');
-				addFile.id = "icon" + imageCount;
-				addFile.classList.add("icon");
-				newimage.src = URL.createObjectURL(addFile.files[i]);
-				
-				console.log(addFile.files[i].name);
-				
-				filenameparts = addFile.files[i].name.split(".");
-				
-				addedFiles.push(addFile.files[i]);
-				
-				var icons = document.getElementsByClassName("icon");
-				
-				newimage.setAttribute("onclick", "clickImg(this, " + icons.length + ")");
-				newimage.setAttribute("class", "icon");
-				newimage.setAttribute("filename", filenameparts[0]);
-				newimage.setAttribute("id", "icon" + (initialFiles + addedFiles.length).toString());
-				
-				
-				newcontainer.classList.add("icon-container");
-				newcontainer.appendChild(newimage);
-				
-				panel.appendChild(newcontainer);
-				imageCount = imageCount+1;
-				resize();
-			
-			
+		function setText(text) {
+			text.previousElementSibling.innerHTML = text.innerHTML;
+		}
+
+		function changeSlider(input, id) {
+			input.nextElementSibling.value = input.value;
+			decide(input, id);
+		}
+		function changeValue(input, id) {
+			input.previousElementSibling.value = input.value;
+			decide(input, id);
+		}
+
+		function decide(input, id) {
+			if (id == 0) {
+				changeSize(input.value);
 			}
-
-
-		}
-	}	
-
-	function resize()
-	{
-		const collection = document.getElementsByClassName("icon-container");
-		document.getElementById("leftside").style.width = (size - 2*padding).toString() + "%";
-		var imageAmount = imageCount;
-		if(imageCount < 5)
-		{
-			imageAmount = 5;
-		}
-		for (let i = 0; i < collection.length; i++)
-		{
-			collection[i].style.width = ((size/imageAmount)-(padding*2)).toString() + "%";;
-		}
-		if(imageCount > 10)
-		{
-			for (let i = 0; i < collection.length; i++)
-			{
-				collection[i].style.width = ((size/imageAmount)-(padding*0.1)).toString() + "%";;
-				collection[i].style.marginRight = "0.1%";
+			if (id == 1) {
+				changeSpace(input.value);
+			}
+			if (id == 2) {
+				changeKern(input.value);
+			}
+			if (id == 3) {
+				changeZoom(input.value);
+			}
+			if (id == 4) {
+				changeThickness(input.value);
 			}
 		}
-	}
 
-	function clickImg(img, number)
-	{
-		img.style.borderColor = "black";
-		const icons = document.getElementsByClassName("icon");
-		for (let i = 0; i < icons.length; i++)
-		{
-			icons[i].style.borderColor = "black";
-		}
-		if(selected != number)
-		{
-			img.style.borderColor = "yellow";
-			selected = number;
-		}
-		else
-		{
-			selected = 0;
-		}
-		console.log(selected);
-	}
-	
-	function clickLeft()
-	{
-		if(selected != 0)
-		{
-			var source = "";
-			if(selected <= initialFiles)
-			{
-				source = document.getElementById("icon" + selected.toString()).src;
-			}
-			if(selected >= initialFiles + 1)
-			{
-				source = URL.createObjectURL(addedFiles[(selected-initialFiles)-1]);
-			}
-			
-			thefilename = document.getElementById("icon" + selected.toString()).getAttribute("filename");
 
-			if(thefilename.includes("2"))
-			{
-				thefilenames = thefilename.split("2");
-				thefilename = thefilenames[0];
+		function changeSize(theSize) {
+			var titles = document.getElementsByClassName('titletext');
+			for (i = 0; i < titles.length; i++) {
+				titles[i].style.fontSize = ((theSize / 100) * (size / 100)).toString() + "vw";
+				fontSize = theSize / 100;
 			}
-			if(thefilename.includes("3"))
-			{
-				thefilenames = thefilename.split("3");
-				thefilename = thefilenames[0];
-			}
+		}
 
-			document.getElementById("lefttexttop").innerHTML = thefilename;
-			document.getElementById("lefttext").innerHTML = thefilename;
-			
-			var image = new Image();
-			image.src = source;
-			image.onload = function() {
-				if(image.height > image.width)
-				{
-					leftcontext.drawImage(image, 0,(image.height-(2160*(image.width/1887)))/2, image.width, 2160*(image.width/1887), 0, 0, 1887, 2160);
-				} else
-				{
-					leftcontext.drawImage(image, (image.width-(1887*(image.height/2160)))/2,0, 1887*(image.height/2160), image.height, 0, 0, 1887, 2160);
+		function changeSpace(theSpace) {
+			var titles = document.getElementsByClassName('titletext');
+			for (i = 0; i < titles.length; i++) {
+				titles[i].style.marginTop = (theSpace / 100).toString() + "vw";
+			}
+		}
+
+		function changeKern(theKern) {
+			var titles = document.getElementsByClassName('titletext');
+			for (i = 0; i < titles.length; i++) {
+				titles[i].style.letterSpacing = (theKern / 100).toString() + "vw";
+			}
+		}
+
+		function changeThickness(theThickness) {
+			var titles = document.getElementsByClassName('titletext');
+			var newThickness = ((theThickness / 100) * (size / 100)).toString() + "vw black";
+
+			document.getElementById("lefttext").style.webkitTextStroke = newThickness;
+			document.getElementById("righttext").style.webkitTextStroke = newThickness;
+		}
+
+
+
+		function changeZoom(theZoom) {
+			size = theZoom;
+			resize();
+			var titles = document.getElementsByClassName('titletext');
+			for (i = 0; i < titles.length; i++) {
+				titles[i].style.fontSize = (fontSize * (size / 100)).toString() + "vw";
+			}
+			var newStyle = (size / 2 - 1).toString() + "vw";
+			document.getElementById("righttexttop").style.marginLeft = newStyle;
+			document.getElementById("righttext").style.marginLeft = newStyle;
+			changeThickness(document.getElementById("thick").value);
+		}
+
+
+		function updateImageDisplay() {
+			if (addFile.files[0] != null) {
+				for (i = 0; i < addFile.files.length; i++) {
+
+
+					const panel = document.getElementById("panel");
+					const newcontainer = document.createElement("a");
+					const newimage = document.createElement('img');
+					addFile.id = "icon" + imageCount;
+					addFile.classList.add("icon");
+					newimage.src = URL.createObjectURL(addFile.files[i]);
+
+					console.log(addFile.files[i].name);
+
+					filenameparts = addFile.files[i].name.split(".");
+
+					addedFiles.push(addFile.files[i]);
+
+					var icons = document.getElementsByClassName("icon");
+
+					newimage.setAttribute("onclick", "clickImg(this, " + icons.length + ")");
+					newimage.setAttribute("class", "icon");
+					newimage.setAttribute("filename", filenameparts[0]);
+					newimage.setAttribute("id", "icon" + (initialFiles + addedFiles.length).toString());
+
+
+					newcontainer.classList.add("icon-container");
+					newcontainer.appendChild(newimage);
+
+					panel.appendChild(newcontainer);
+					imageCount = imageCount + 1;
+					resize();
+
+
 				}
-			};
-			selected = 0;
+
+
+			}
+		}
+
+		function resize() {
+			const collection = document.getElementsByClassName("icon-container");
+			document.getElementById("leftside").style.width = (size - 2 * padding).toString() + "%";
+			var imageAmount = imageCount;
+			if (imageCount < 5) {
+				imageAmount = 5;
+			}
+			for (let i = 0; i < collection.length; i++) {
+				collection[i].style.width = ((size / imageAmount) - (padding * 2)).toString() + "%";;
+			}
+			if (imageCount > 10) {
+				for (let i = 0; i < collection.length; i++) {
+					collection[i].style.width = ((size / imageAmount) - (padding * 0.1)).toString() + "%";;
+					collection[i].style.marginRight = "0.1%";
+				}
+			}
+		}
+
+		function clickImg(img, number) {
+			img.style.borderColor = "black";
 			const icons = document.getElementsByClassName("icon");
-			for (let i = 0; i < icons.length; i++)
-			{
+			for (let i = 0; i < icons.length; i++) {
 				icons[i].style.borderColor = "black";
 			}
+			if (selected != number) {
+				img.style.borderColor = "yellow";
+				selected = number;
+			}
+			else {
+				selected = 0;
+			}
+			console.log(selected);
 		}
-		else
-		{
-			if(leftFlip == false)
-			{
-				document.getElementById("leftcanvas").style.transform = "scaleX(-1)";
-				leftFlip = true;
+
+		function clickLeft() {
+			if (selected != 0) {
+				var source = "";
+				if (selected <= initialFiles) {
+					source = document.getElementById("icon" + selected.toString()).src;
+				}
+				if (selected >= initialFiles + 1) {
+					source = URL.createObjectURL(addedFiles[(selected - initialFiles) - 1]);
+				}
+
+				thefilename = document.getElementById("icon" + selected.toString()).getAttribute("filename");
+
+				if (thefilename.includes("2") && !thefilename.startsWith("2")) {
+					thefilenames = thefilename.split("2");
+					thefilename = thefilenames[0];
+				}
+				if (thefilename.includes("3") && !thefilename.startsWith("3")) {
+					thefilenames = thefilename.split("3");
+					thefilename = thefilenames[0];
+				}
+
+				document.getElementById("lefttexttop").innerHTML = thefilename;
+				document.getElementById("lefttext").innerHTML = thefilename;
+
+				var image = new Image();
+				image.src = source;
+				image.onload = function () {
+					if (image.height > image.width) {
+						leftcontext.drawImage(image, 0, (image.height - (2160 * (image.width / 1887))) / 2, image.width, 2160 * (image.width / 1887), 0, 0, 1887, 2160);
+					} else {
+						leftcontext.drawImage(image, (image.width - (1887 * (image.height / 2160))) / 2, 0, 1887 * (image.height / 2160), image.height, 0, 0, 1887, 2160);
+					}
+				};
+				selected = 0;
+				const icons = document.getElementsByClassName("icon");
+				for (let i = 0; i < icons.length; i++) {
+					icons[i].style.borderColor = "black";
+				}
 			}
-			else
-			{
-				document.getElementById("leftcanvas").style.transform = "scaleX(1)";
-				leftFlip = false;
-			}
-		}
-		
-	}
-	function clickRight()
-	{
-		if(selected != 0)
-		{
-			var source = "";
-			if(selected <= initialFiles)
-			{
-				source = document.getElementById("icon" + selected.toString()).src;
-			}
-			if(selected >= initialFiles + 1)
-			{
-				source = URL.createObjectURL(addedFiles[(selected-initialFiles)-1]);
+			else {
+				if (leftFlip == false) {
+					document.getElementById("leftcanvas").style.transform = "scaleX(-1)";
+					leftFlip = true;
+				}
+				else {
+					document.getElementById("leftcanvas").style.transform = "scaleX(1)";
+					leftFlip = false;
+				}
 			}
 
-			thefilename = document.getElementById("icon" + selected.toString()).getAttribute("filename");
-			
-			if(thefilename.includes("2"))
-			{
-				thefilenames = thefilename.split("2");
-				thefilename = thefilenames[0];
-			}
-			if(thefilename.includes("3"))
-			{
-				thefilenames = thefilename.split("3");
-				thefilename = thefilenames[0];
-			}
-			
-			document.getElementById("righttexttop").innerHTML = thefilename;
-			document.getElementById("righttext").innerHTML = thefilename;
-			
-			var image = new Image();
-			image.src = source;
-			image.onload = function() {
-				if(image.height > image.width)
-				{
-					rightcontext.drawImage(image, 0,(image.height-(2160*(image.width/1887)))/2, image.width, 2160*(image.width/1887), 0, 0, 1887, 2160);
-				} else
-				{
-					rightcontext.drawImage(image, (image.width-(1887*(image.height/2160)))/2,0, 1887*(image.height/2160), image.height, 0, 0, 1887, 2160);
+		}
+		function clickRight() {
+			if (selected != 0) {
+				var source = "";
+				if (selected <= initialFiles) {
+					source = document.getElementById("icon" + selected.toString()).src;
 				}
-			};
-			selected = 0;
-			const icons = document.getElementsByClassName("icon");
-			for (let i = 0; i < icons.length; i++)
-			{
-				icons[i].style.borderColor = "black";
+				if (selected >= initialFiles + 1) {
+					source = URL.createObjectURL(addedFiles[(selected - initialFiles) - 1]);
+				}
+
+				thefilename = document.getElementById("icon" + selected.toString()).getAttribute("filename");
+
+				if (thefilename.includes("2")) {
+					thefilenames = thefilename.split("2");
+					thefilename = thefilenames[0];
+				}
+				if (thefilename.includes("3")) {
+					thefilenames = thefilename.split("3");
+					thefilename = thefilenames[0];
+				}
+
+				document.getElementById("righttexttop").innerHTML = thefilename;
+				document.getElementById("righttext").innerHTML = thefilename;
+
+				var image = new Image();
+				image.src = source;
+				image.onload = function () {
+					if (image.height > image.width) {
+						rightcontext.drawImage(image, 0, (image.height - (2160 * (image.width / 1887))) / 2, image.width, 2160 * (image.width / 1887), 0, 0, 1887, 2160);
+					} else {
+						rightcontext.drawImage(image, (image.width - (1887 * (image.height / 2160))) / 2, 0, 1887 * (image.height / 2160), image.height, 0, 0, 1887, 2160);
+					}
+				};
+				selected = 0;
+				const icons = document.getElementsByClassName("icon");
+				for (let i = 0; i < icons.length; i++) {
+					icons[i].style.borderColor = "black";
+				}
 			}
+			else {
+				if (rightFlip == false) {
+					document.getElementById("rightcanvas").style.transform = "scaleX(-1)";
+					rightFlip = true;
+				}
+				else {
+					document.getElementById("rightcanvas").style.transform = "scaleX(1)";
+					rightFlip = false;
+				}
+			}
+
 		}
-		else
-		{
-			if(rightFlip == false)
-			{
-				document.getElementById("rightcanvas").style.transform = "scaleX(-1)";
-				rightFlip = true;
-			}
-			else
-			{
-				document.getElementById("rightcanvas").style.transform = "scaleX(1)";
-				rightFlip = false;
-			}
-		}
-		
-	}
-	
+
 	</script>
-	</body>
+</body>
+
 </html>
