@@ -479,11 +479,11 @@
 
 				thefilename = document.getElementById("icon" + selected.toString()).getAttribute("filename");
 
-				if (thefilename.includes("2")) {
+				if (thefilename.includes("2") && !thefilename.startsWith("2")) {
 					thefilenames = thefilename.split("2");
 					thefilename = thefilenames[0];
 				}
-				if (thefilename.includes("3")) {
+				if (thefilename.includes("3") && !thefilename.startsWith("3")) {
 					thefilenames = thefilename.split("3");
 					thefilename = thefilenames[0];
 				}
